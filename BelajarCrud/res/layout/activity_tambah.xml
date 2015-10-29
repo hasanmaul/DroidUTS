@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hasan.belajarcrud.TambahActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="Tambah Data Siswa"
+        android:textSize="27dp" />
+    
+    <EditText
+        android:id="@+id/editNISN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:ems="10"
+        android:hint="NISN"/>
+    
+    <EditText
+        android:id="@+id/editNAMA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editNISN"
+        android:layout_alignRight="@+id/editNISN"
+        android:layout_below="@+id/editNISN"
+        android:ems="10"
+        android:hint="NAMA" />
+    
+    <EditText
+        android:id="@+id/editKELAS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editNAMA"
+        android:layout_alignRight="@+id/editNAMA"
+        android:layout_below="@+id/editNAMA"
+        android:ems="10"
+        android:hint="Kelas" />
+    
+    <EditText
+        android:id="@+id/editALAMAT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EDITKELAS"
+        android:layout_centerVertical="true"
+        android:ems="13"
+        android:hint="Alamat"
+        android:lines="3" />
+    
+    <Button
+        android:id="@+id/btnTambahData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editALAMAT"
+        android:layout_alignRight="@+id/editALAMAT"
+        android:layout_below="@+id/editALAMAT"
+        android:layout_marginTop="20dp"
+        android:text="Tambah Data" />
+    
+    <Button
+        android:id="@+id/btnBatalkan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnTambahData"
+        android:layout_alignRight="@+id/btnTambahData"
+        android:layout_below="@+id/btnTambahData"
+        android:text="Tambah Data" />
+    
+</RelativeLayout>

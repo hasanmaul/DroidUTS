@@ -1,0 +1,6 @@
+INDEX VERSION 1.127+/home/hasan/praktikum-android/.metadata/.plugins/org.eclipse.jdt.core
+2347654085.index
+1523790265.index
+3133558124.index
+1715648362.index
+2813534349.index

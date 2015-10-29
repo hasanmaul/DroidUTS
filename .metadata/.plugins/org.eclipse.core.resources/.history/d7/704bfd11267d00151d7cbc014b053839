@@ -1,0 +1,9 @@
+package com.hasan.belajarcrud;
+
+public class JSONParser {
+
+	public JSONParser() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hasan.belajarcrud.EditActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="Edit Data Siswa"
+        android:textSize="27dp" />
+    <EditText
+        android:id="@+id/editEDITNISN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:ems="10"
+        android:hint="NISN" />
+    
+    <EditText
+        android:id="@+id/editEDITALAMAT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editKELAS"
+        android:layout_centerVertical="true"
+        android:ems="13"
+        android:hint="Alamat"
+        android:lines="3" />
+    
+    <EditText
+        android:id="@+id/editEDITNAMA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editKELAS"
+        android:layout_alignRight="@+id/editALAMAT"
+        android:layout_below="@+id/editNISN"
+        android:ems="10"
+        android:hint="Nama" />
+    
+    <EditText
+        android:id="@+id/editEDITKELAS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editNAMA"
+        android:layout_alignRight="@+id/editALAMAT"
+        android:layout_below="@+id/editNAMA"
+        android:ems="10"
+        android:hint="Kelas" />
+    
+    <Button
+        android:id="@+id/btnEDITSIMPAN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editALAMAT"
+        android:layout_alignRight="@+id/editALAMAT"
+        android:layout_below="@+id/editALAMAT"
+		android:text="S I M P A N" />
+    
+    <Button
+        android:id="@+id/btnEDITHAPUS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnEDITSIMPAN"
+        android:layout_alignRight="@+id/btnEDITSIMPAN"
+        android:layout_below="@+id/btnEDITSIMPAN"
+		android:text="H A P U S" />
+    
+    <Button
+        android:id="@+id/btnEDITKEMBALI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnEDITHAPUS"
+        android:layout_alignRight="@+id/btnEDITHAPUS"
+        android:layout_below="@+id/btnEDITHAPUS"
+		android:text="K E M B A L I" />
+
+</RelativeLayout>
